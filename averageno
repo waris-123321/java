@@ -1,0 +1,14 @@
+public class average {
+	public static void main(String[] args) {
+        int c=0;
+        int num=12;
+        int sum=0;
+        while(num<=15){
+            c=c+1;
+            sum+=num;
+            num=num+1;
+        }
+        System.out.println(sum/c);
+    }
+
+}
