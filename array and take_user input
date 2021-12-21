@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class array_input{
+    public static void main(String[] args) {
+        int array[]=new int[5];
+        Scanner sc = new Scanner(System.in);
+        for(int i=0;i<5;i++){
+            array[i]= sc.nextInt();
+        }
+    }
+}
